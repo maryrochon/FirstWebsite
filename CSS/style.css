@@ -1,0 +1,81 @@
+* {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* can put just margin if wanting all four */
+}
+
+h1{
+    color: mediumpurple;
+}
+strong {
+    font-weight: normal;
+}
+p {
+    color: purple;
+    background: rgb(236, 245, 248);
+    font-weight: normal; /* bold, normal */
+    text-transform: none; /* uppercase, lowercase, capitalize */
+    font-style: normal; /* italic, normal */
+    line-height: normal; /* changes distance between line. can set to normal, in px value*/
+    letter-spacing: normal; /* changes tracking. can set to normal, in px value */
+    text-decoration: normal; /* underline, overline, linethrough, normal */
+    font-size: 14px;
+}
+
+
+body{
+    background: rgb(244, 248, 250) 
+}
+
+#citation {
+    color: slateblue;
+}
+
+.new-class {
+  font-size: 20px;
+    background: powderblue;
+    color: black;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:blue
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#container {
+    background: red;
+    border-style: dashed;
+    border-color: black;
+    border-width: 8px;
+    width: 150px;
+    color: aquamarine;
+}
+
+#shape {
+    height: 200px;
+    width: 500px;
+    background: aquamarine;
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    background: blueviolet;
+    border-radius: 200px; /*makes round shapes*/
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
